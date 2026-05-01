@@ -424,6 +424,17 @@ h1:hover {
     color: #121212;
 }
 
+.btn-tertiary {
+    background: transparent;
+    border-color: #FFD700;
+    color: #FFD700;
+}
+
+.btn-tertiary:hover {
+    background: #FFD700;
+    color: #121212;
+}
+
 section {
     padding: 5rem 2rem;
     max-width: 1200px;
