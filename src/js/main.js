@@ -127,7 +127,7 @@ window.addEventListener('load', function () {
             const originalText = submitBtn.innerText;
             submitBtn.innerText = 'Sending...';
 
-            emailjs.sendForm('service_twa8e88', 'template_gxpp66t', this)
+            emailjs.sendForm('service_qs6sfum', 'template_gxpp66t', this)
                 .then(function () {
                     console.log('SUCCESS!');
                     submitBtn.innerText = 'Message Sent!';
