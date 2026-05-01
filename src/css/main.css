@@ -816,12 +816,12 @@ footer .signature {
 .skills-marquee img {
     height: 60px;
     margin: 0 3rem;
-    filter: grayscale(100%) opacity(0.5);
+    filter: none;
+    opacity: 1;
     transition: all 0.3s ease;
 }
 
 .skills-marquee img:hover {
-    filter: grayscale(0%) opacity(1);
     transform: scale(1.1);
 }
 
